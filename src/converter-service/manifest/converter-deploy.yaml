@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: converter
-          image: nani123/converter
+          image: koushik12098/converter
           envFrom:
             - configMapRef:
                 name: converter-configmap
